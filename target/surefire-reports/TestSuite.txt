@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.587 s <<< FAILURE! - in TestSuite
+ApplyMultipleFilters(com.qa.testscript.TC_JiomartFilters_002)  Time elapsed: 23.51 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testscript.TC_JiomartFilters_002.ApplyMultipleFilters(TC_JiomartFilters_002.java:54)
+

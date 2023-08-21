@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T13:01:16 IST" name="Jiomart Test Automation Suite" finished-at="2022-10-03T13:01:53 IST" duration-ms="37575">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T13:01:16 IST" name="Functional Testing - Chrome" finished-at="2022-10-03T13:01:53 IST" duration-ms="37575">
+      <class name="com.qa.testscript.TC_JiomartFilters_002">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.TC_JiomartFilters_002@581ac8a8]" started-at="2022-10-03T13:01:16 IST" name="setUp" finished-at="2022-10-03T13:01:29 IST" duration-ms="13555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.jiomart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ApplyMultipleFilters()[pri:0, instance:com.qa.testscript.TC_JiomartFilters_002@581ac8a8]" started-at="2022-10-03T13:01:29 IST" name="ApplyMultipleFilters" finished-at="2022-10-03T13:01:53 IST" duration-ms="23465" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.qa.testscript.TC_JiomartFilters_002.ApplyMultipleFilters(TC_JiomartFilters_002.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyMultipleFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_JiomartFilters_002@581ac8a8]" started-at="2022-10-03T13:01:53 IST" name="tearDown" finished-at="2022-10-03T13:01:53 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_JiomartFilters_002 -->
+    </test> <!-- Functional Testing - Chrome -->
+  </suite> <!-- Jiomart Test Automation Suite -->
+</testng-results>
